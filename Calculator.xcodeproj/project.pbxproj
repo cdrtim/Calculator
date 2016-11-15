@@ -12,6 +12,9 @@
 		812220F51DDABB64009E3ADA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 812220F31DDABB64009E3ADA /* Main.storyboard */; };
 		812220F71DDABB64009E3ADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 812220F61DDABB64009E3ADA /* Assets.xcassets */; };
 		812220FA1DDABB64009E3ADA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 812220F81DDABB64009E3ADA /* LaunchScreen.storyboard */; };
+		812221021DDB0320009E3ADA /* OperatorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812221011DDB0320009E3ADA /* OperatorButton.swift */; };
+		812221041DDB065A009E3ADA /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812221031DDB065A009E3ADA /* GradientView.swift */; };
+		812221061DDB14C1009E3ADA /* NumberButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812221051DDB14C1009E3ADA /* NumberButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		812220F61DDABB64009E3ADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		812220F91DDABB64009E3ADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		812220FB1DDABB64009E3ADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		812221011DDB0320009E3ADA /* OperatorButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperatorButton.swift; sourceTree = "<group>"; };
+		812221031DDB065A009E3ADA /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		812221051DDB14C1009E3ADA /* NumberButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +62,10 @@
 			children = (
 				812220EF1DDABB64009E3ADA /* AppDelegate.swift */,
 				812220F11DDABB64009E3ADA /* ViewController.swift */,
+				812221011DDB0320009E3ADA /* OperatorButton.swift */,
+				812221031DDB065A009E3ADA /* GradientView.swift */,
 				812220F31DDABB64009E3ADA /* Main.storyboard */,
+				812221051DDB14C1009E3ADA /* NumberButton.swift */,
 				812220F61DDABB64009E3ADA /* Assets.xcassets */,
 				812220F81DDABB64009E3ADA /* LaunchScreen.storyboard */,
 				812220FB1DDABB64009E3ADA /* Info.plist */,
@@ -138,6 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				812220F21DDABB64009E3ADA /* ViewController.swift in Sources */,
+				812221021DDB0320009E3ADA /* OperatorButton.swift in Sources */,
+				812221041DDB065A009E3ADA /* GradientView.swift in Sources */,
+				812221061DDB14C1009E3ADA /* NumberButton.swift in Sources */,
 				812220F01DDABB64009E3ADA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
